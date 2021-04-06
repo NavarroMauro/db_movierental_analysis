@@ -1,0 +1,13 @@
+prefix=/home/mauro/Documents/Programming_data_science_python_UDACITY/sql_data_science/investigate_SQL/dvdrental
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/qt
+
+
+Name: Qt5 Widgets
+Description: Qt Widgets module
+Version: 5.9.7
+Libs: -L${libdir} -lQt5Widgets 
+Cflags: -I${includedir}/QtWidgets -I${includedir}
+Requires: Qt5Core Qt5Gui
+

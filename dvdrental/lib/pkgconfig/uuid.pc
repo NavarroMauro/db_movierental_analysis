@@ -1,0 +1,11 @@
+prefix=/home/mauro/Documents/Programming_data_science_python_UDACITY/sql_data_science/investigate_SQL/dvdrental
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 1.0.3
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

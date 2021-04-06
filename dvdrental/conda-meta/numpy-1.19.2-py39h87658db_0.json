@@ -1,0 +1,38 @@
+{
+  "build": "py39h87658db_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas * openblas",
+    "libgcc-ng >=7.3.0",
+    "libopenblas >=0.3.3,<1.0a0",
+    "numpy-base 1.19.2 py39h0f7b65f_0",
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/mauro/anaconda3/pkgs/numpy-1.19.2-py39h87658db_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.19.2-py39h87658db_0.conda",
+  "legacy_bz2_md5": "8ac048c1d172eea7034b81322bfc13ea",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/mauro/anaconda3/pkgs/numpy-1.19.2-py39h87658db_0",
+    "type": 1
+  },
+  "md5": "bcfec0fed066d701773aad43bab63efe",
+  "name": "numpy",
+  "package_tarball_full_path": "/home/mauro/anaconda3/pkgs/numpy-1.19.2-py39h87658db_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy",
+  "sha256": "646b3918a6cfd2fa840218d6cab1ef71a77a3186ad4f9576bc8dcf6cb3d390fa",
+  "size": 22241,
+  "subdir": "linux-64",
+  "timestamp": 1607448348743,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.19.2-py39h87658db_0.conda",
+  "version": "1.19.2"
+}

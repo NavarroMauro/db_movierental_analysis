@@ -1,0 +1,11 @@
+prefix=/home/mauro/Documents/Programming_data_science_python_UDACITY/sql_data_science/investigate_SQL/dvdrental
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: lcms2
+Description: LCMS Color Management Library
+Version: 2.11
+Libs: -L${libdir} -llcms2
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}

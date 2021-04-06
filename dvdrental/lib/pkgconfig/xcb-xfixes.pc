@@ -1,0 +1,11 @@
+prefix=/home/mauro/Documents/Programming_data_science_python_UDACITY/sql_data_science/investigate_SQL/dvdrental
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XFixes
+Description: XCB XFixes Extension
+Version: 1.14
+Requires.private: xcb xcb-render xcb-shape
+Libs: -L${libdir} -lxcb-xfixes
+Cflags: -I${includedir}

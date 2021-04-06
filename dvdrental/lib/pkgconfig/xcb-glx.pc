@@ -1,0 +1,11 @@
+prefix=/home/mauro/Documents/Programming_data_science_python_UDACITY/sql_data_science/investigate_SQL/dvdrental
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB GLX
+Description: XCB GLX Extension
+Version: 1.14
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-glx
+Cflags: -I${includedir}
